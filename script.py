@@ -161,7 +161,7 @@ def main():
         batch_size = 10000
         block_batches = [block_hashes[i:i + batch_size] for i in range(0, len(block_hashes), batch_size)]
 
-        max_workers = 5
+        max_workers = 8
 
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = [
