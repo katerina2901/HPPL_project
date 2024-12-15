@@ -1,6 +1,6 @@
 # Parallel processing of Bitcoin blocks with ClickHouse integration
 
-## Описание проекта
+## Project description
 
 The project focuses on collecting information on all bitcoin addresses that participate in all Bitcoin blockchain transactions. The main goal is to assemble a large and easily accessible database that allows for quick analytical queries of data on transactions and addresses participating in the Bitcoin blockchain. The project includes applying concurrency techniques (multithreading) using `concurrent.futures.ThreadPoolExecutor`, integrating with the full Bitcoin Core node via RPC, and loading large amounts of data into ClickHouse's high-performance columnar DBMS.
 
