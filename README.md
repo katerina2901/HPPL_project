@@ -11,7 +11,7 @@ The project focuses on collecting information on all bitcoin addresses that part
 - Batch insertion of data into ClickHouse to speed up loading.
 
 ## Technical Requirements
-- Installed and synchronised full-format Bitcoin Core node.
+- Installed and synchronised full Bitcoin Core node.
 - A running and available ClickHouse server.
 - Python 3.9+ 
 
@@ -31,13 +31,14 @@ ORDER BY (address, txid);
 
 1. Clone the repository:
    ```bash
-   git clone [repo](https://github.com/katerina2901/HPPL_project)
+   git clone https://github.com/katerina2901/HPPL_project
    ```
-2. ```
+2. Install requirements:
+   ```
    pip install -r requirements.txt
    ```
-4. Change .env file using your data for connecting to Bitcoin Node and Clickhouse.
-5. Run Bitcoin node and Clickhouse server
+4. Change .env file using your data for connecting to Bitcoin Core node and Clickhouse.
+5. Run Bitcoin Core node and Clickhouse server
 6. ```
    python3 script.py
    ```
