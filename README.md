@@ -11,7 +11,7 @@ The project focuses on collecting information on all bitcoin addresses that part
 - Batch insertion of data into ClickHouse to speed up loading.
 
 ## Naive way vs My way
-
+![Figure 1.](image/comparison.png)
 ## Technical Requirements
 - Installed and synchronised full Bitcoin Core node.
 - A running and available ClickHouse server.
