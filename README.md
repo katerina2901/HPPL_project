@@ -32,8 +32,13 @@ ORDER BY (address, txid);
 1. Clone the repository:
    ```bash
    git clone [repo](https://github.com/katerina2901/HPPL_project)
-2. ```pip install -r requirements.txt```
-3. Change .env file using your data for connecting to Bitcoin Node and Clickhouse.
-4. Run Bitcoin node and Clickhouse server
-5.   ```python3 script.py```
+   ```
+2. ```
+   pip install -r requirements.txt
+   ```
+4. Change .env file using your data for connecting to Bitcoin Node and Clickhouse.
+5. Run Bitcoin node and Clickhouse server
+6. ```
+   python3 script.py
+   ```
 
