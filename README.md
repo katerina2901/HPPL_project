@@ -16,7 +16,8 @@ The project focuses on collecting information on all bitcoin addresses that part
 - Python 3.9+ 
 
 ## Creating a table in the database:
-```CREATE TABLE all_transactions (
+```
+CREATE TABLE all_transactions (
     address String,
     txid String,
     is_input UInt8,
