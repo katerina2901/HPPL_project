@@ -10,6 +10,8 @@ The project focuses on collecting information on all bitcoin addresses that part
 - Use of `utxo_set` to reduce the number of repeated RPC calls.
 - Batch insertion of data into ClickHouse to speed up loading.
 
+## Naive way vs My way
+
 ## Technical Requirements
 - Installed and synchronised full Bitcoin Core node.
 - A running and available ClickHouse server.
@@ -27,7 +29,7 @@ ENGINE = MergeTree
 ORDER BY (address, txid);
 ```
 
-## Installation
+## How to run
 
 1. Clone the repository:
    ```bash
